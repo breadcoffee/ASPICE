@@ -196,3 +196,196 @@ MOBIUS BOOTCAMP ASPICE 학습 리포지토리
 - Automotive SPICE 능력 수준 5
     - 프로세스 성과를 향상시키기 위해 정량적 데이터에 기반하여 지속적 개선을 수행함
 
+## 프로젝트 관리 프로세스
+- 프로젝트 관리란?
+    - 프로젝트와 관련된 이해관계자들의 품질/비용/일정 측면의 요구사항을 만족시키기 위해 지식, 기법, 도구 등을 적용하여 관련 활동들을 계획하고 통제하는 프로세스
+- 프로젝트 관리 프로세스 예시
+    1. 프로젝트 계획 : 프로젝트 산정, 프로젝트 관리 계획 수립
+    2. 프로젝트 수행 : 프로젝트 모니터링 및 통제, 단계 말 검토 및 시정조치
+    3. 프로젝트 완료 : 프로젝트 완료 및 보고
+
+- 프로젝트의 요구사항과 제약사항을 만족하는 제품을 개발하기 위해 필요한 개발/관리/지원 등의 활동과 일정/비용/공수 등을 계획하고 통제함
+
+- 프로젝트 관리의 7가지 성과
+    1. 작업의 범위
+    2. 프로젝트 달성의 타당성 평가
+    3. 활동과 자원산정
+    4. 프로젝트 내외부 인터페이스 식별 모니터링
+    5. 계획 수립 및 관리
+    6. 진행현황 모니터링 및 보고
+    7. 시정조치 및 문제의 재발 방지
+- 프로세스 활동 지표 : Base Practices
+    - BP 1~8 : 계획 수립, BP 4~10 : 모니터링 및 통제
+    - BP 1 : Define the scope of work. [작업의 범위를 정의한다.]
+        - 설명
+            - 프로젝트 범위는 WBS(Work Breakdown Structure)로 관리한다.
+            - 프로젝트의 범위는 프로젝트 수행 배경과 Business Needs를 포함하며, 프로젝트 목표(품질,일정, 비용 등)는 측정할 수 있는 정량화된 기준으로 정의한다.
+            - 개발 중에 프로젝트 범위가 변경되는 경우, SUP.10 Change Request Management를 통해 관리한다.
+        - Output Work Product(출력 결과물)
+            - Project plan
+            - Scope : 구체화된 특징과 기능을 가진 제품, 서비스 또는 결과를 인도하기 위해 수행해야 하는 업무
+            - WBS(Work Breakdown Structure
+                - 프로젝트 목표를 달성하고 범위를 관리하기 위하여 필요한 작업을 분할한 계층 구조 체계
+                - Work Package는 WBS의 최하위 노드를 말함(2주 이내로 세분화)
+            - 한 번에 전체 계획을 동일 수준으로 자세히 수립하기 보다는 단계 별로 나눠 가면서 계획을 상세화 하는 방식
+        - Practice Checklist
+            - 프로젝트 목표로 무엇을 도출하고 있는가?
+            - 프로젝트 범위를 어떻게 정의 및 관리하고 있는가?
+    - BP 2 : Define project life cycle. [프로젝트 생명주기를 정의한다.]
+        - 설명
+            - 소프트웨어 시스템을 개발하고 관리하는 전체 활동에 대하여 **프로젝트의 특성을 반영한 단계별 수행 전략**을 수립한다.
+                - 범위, 복잡도 등의프로젝트 특성을 고려하여 적용할 생명주기 모델을 선정한다.
+                - 선정한 생명주기 모델의 단계, 활동, 마일스톤 등을프로젝트 특성에 맞게조정한다.
+                - 프로젝트 단계별 진행상황을 파악하는 기준선으로 마일스톤을 정의한다.
+            - **고객의 개발 프로세스와 일관성**을 확보하여 생명주기 모델을 정의한다.
+            - 자동차 도메인에서 적용 가능한 생명주기는 모델로 **Incremental Iterative V-Model**이 있다.
+        - Output Work Product(출력 결과물)
+            - Review record
+            - 생명주기 모델 유형
+                - 폭포수 모델, 프로토타입 모델, 나선형 모델, V 모델
+        - Practice Checklist
+            - 프로젝트에서 어떠한 생명주기를 정의해서 사용하고 있는가?
+            - 해당 생명주기 모델을 프로젝트에서 선정한 이유는 무엇인가?
+    - BP 3 : Evaluate feasibility of the project. [프로젝트의 타당성을 평가한다.]
+        - 설명
+            - 프로젝트의 목표를 달성하기 위해서 **프로젝트의 실행 가능성**을 평가한다.
+                - 프로젝트 각단계의 작업에 대해서 일정, 공수, 비용, 가용자원 산정
+                - 타당성 검토를 통해 **리스크를 식별**하고 리스크 관리대장에 기록및관리함
+                - 주기적으로 공수와 비용을 재산정하고 이를다시 프로젝트 계획에 반영
+        - Output Work Product(출력 결과물)
+            - Review record
+        - Practice Checklist
+            - 프로젝트 목표를 달성하기 위해서 필요한 시간, 공수, 비용, 자원에 대해 검토 활동을 하는가?
+            - 타당성 검토를 통해 어떠한 프로젝트의 리스크를 식별하였고 대응 계획을 수립하는가?
+    - BP 4 : Define, monitor and adjust project activities. [프로젝트 활동을 정의하고, 모니터링하고, 조정한다.]
+        - 설명
+            - **프로젝트 활동(개발, 관리, 지원)을 관리 가능한 수준**으로 상세하게 WBS 등에 정의한다.
+            - 개발 활동 외에 **프로젝트 관리, 변경 요청 관리, 문제점 관리** 등의 관리/지원 활동에 대해서도 WBS 등에 정의한다.
+            - 프로젝트 활동들의 **의존성**을 식별하고 WBS 등에 정의한다.
+        - Output Work Product(출력 결과물)
+            - Project plan
+            - Schedule
+            - Work breakdown structure
+            - Change request
+            - Review record
+            - Corrective action register
+        - Practice Checklist
+            - WBS의 활동들은 관리 가능한 수준으로 분해되어 있는가?
+            - 프로젝트의 개발/관리/지원 활동을 WBS에 정의하여 관리하고 있는가?
+            - 프로젝트 활동들의 의존성을 어떻게 정의하는가?
+            - 프로젝트 활동을 어떻게 모니터링 하고 조정하는가?
+    - BP 5 : Define, monitor and adjust project estimates and resources. [프로젝트 산정치와 자원을 정의하고, 모니터링하고, 조정한다.]
+        - 설명
+            - 프로젝트 공수와 자원을 산정하기 위한 방법과 기준을 정의한다.
+            - 프로젝트의 목표를 달성하기 위해 필요한 **인적, 물적 자원**에 대한 투입 및 관리 계획을 수립한다.
+                - 엔지니어링 환경 및도구 : 시작품 제작도구, 테스트 도구, 통합도구, 조립도구등
+                - 설비 및 장치: 테스트 벤치, 기록 장치등
+        - Output Work Product(출력 결과물)
+            - Project plan
+            - Schedule
+            - Work breakdown structure
+            - Change request
+            - Review record
+            - Corrective action register
+        - Practice Checklist
+            - 프로젝트 목표를 달성하기 위해서 필요한 시간, 공수, 비용, 자원에 대해 검토 활동을 하는가?
+            - 타당성 검토를 통해 어떠한 프로젝트의 리스크를 식별하였고 대응 계획을 수립하는가?
+        - 산정 개요
+            - 산정은 미래에 수행할 작업을 이해하고 규모, 공수, 일정, 비용 등을 예상하는 활
+            - **산정은 예상이므로 불확실한 부분이 있으므로 리스크를 고려해야함**
+            - 성공적인 산정을 위해서는 과거 데이터를 활용해야 하고 여러 전문가들이 합의해야 함
+        - 산정 절차
+            - 일반적으로 규모, 공수, 일정, 비용 순으로 산정함
+            - **산정 시 가정 사항(예: 공수 산정 기준, 발생 가능한 리스크 등)을 기록함**
+        - 산정 방법
+            - 경험적 방법 : 여러 전문가들의 기존 경험을 기반으로 산정 (예) 델파이(Delphi) 기법
+            - 크기 중심 방법 : 소스 코드 라인수를 기반으로 산정 (예) LOC(Lines Of Code) 기법
+            - 기능 중심 방법 : 사용자가 요구하는 기능 분석 결과를 기반으로 산정 (예) 기능 점수(Function Point) 기법
+            - 과거 데이터 기반 산정 방법
+    - BP 6 : Ensure required skills, knowledge, and experience. [필요 기술, 지식, 경험을 보장한다.]
+        - 설명
+            - 프로젝트 수행에 필요한 **필요 기술, 지식, 경험을 식별 및 필요한 수준을 정의**하고 프로젝트 인원과의 수준 비교를 통해 **부족한 부분을 획득하기 위한 방안과 시점** 등을 계획한다.
+            - 프로젝트 수행에 필요한 기술, 지식, 경험 간의 차이를 분석하고 확보하는 활동을 **지속적으로** 수행한다
+        - Output Work Product(출력 결과물)
+            - Project plan
+            - Schedule
+            - Work breakdown structure
+            - Change request
+            - Review record
+            - Corrective action register
+        - Practice Checklist
+            - 프로젝트 차원에서 필요한 교육대상과 교육과정을 식별하고 해당 교육을 수행하고 있는가?
+            - 교육 수행결과에 대한 피드백을 어떻게 관리하고 있는가?
+            - 프로젝트 진행 중에 필요 기술, 지식 간의 차이를 분석하고 확보하는 활동을 지속적으로 수행하는가?
+    - BP 7 : Identify, monitor and adjust project interfaces and agreed commitments.
+[프로젝트 인터페이스 및 합의된 사항을 식별하고, 모니터링하고, 조정한다.]
+        - 설명
+            - 프로젝트 기간 동안 각 단계별 활동에 대해 **내/외부 이해관계자들을 식별**하고 **관리하기 위한 계획을 수립**한다.
+                - 프로젝트 수행조직뿐만 아니라 **관련된 모든 이해관계자들**을 식별
+                - 이해관계자들의 **역할과 책임, 관계, 역할별 의사소통의 범위, 내용, 방법** 등을결정
+                - 이해관계자들이 **합의한 사항을 이행하는지 파악하기 위한통제 계획**을 수립
+        - Output Work Product(출력 결과물)
+            - Stakeholder groups list
+            - Work breakdown structure
+            - Corrective action register
+            - Project plan
+            - Review record
+            - Project status report
+            - Communication record
+            - Change request
+        - Practice Checklist
+            - 프로젝트 단계별 내/외부 이해관계자를 파악하여 의사소통 계획을 수립하는가?
+            - 의사소통 계획에 맞추어서 내/외부 이해관계자들이 참여하고 있는가?
+            - 수립된 프로젝트 계획에 대해 내/외부 이해관계자들의 합의는 어떻게 하고 있는가?
+    - BP 8 : Define, monitor and adjust project schedule. [프로젝트 일정을 정의하고, 모니터링하고, 조정한다.]
+        - 설명
+            - 프로젝트 활동에 맞추어 **일정과 자원을 할당**하고 **프로젝트의 진척사항**을 관리한다.
+                - 프로젝트의 **진척율을 파악하는 기준**을 정의(예: 미착수 0%, 착수/진행 50%, 완료100%)
+                - 프로젝트 잔향동안에 프로젝트의 진행상황이 프로젝트 계획과 어느정도차이를 보이는지 정기적으로 점검
+                - 진척사항 검토결과는 문서화 하여이해관계자들에게 공유
+        - Output Work Product(출력 결과물)
+            - Project plan
+            - Schedule
+            - Work breakdown structure
+            - Change request
+            - Review record
+            - Corrective action register
+        - Practice Checklist
+            - 프로젝트 일정 대비 진척사항을 어떻게 모니터링 하는가?
+            - 어떤 주기로 프로젝트 진척사항을 모니터링 하고 있는가?
+            - 진척율을 파악하는 기준은 무엇인가
+    - BP 9 : Ensure consistency. [일관성을 보장한다.]
+        - 설명
+            - 프로젝트 **계획 요소(일정, 공수, 비용 등)가 관련 산출물과 일관성** 있는지를 확인한다.
+                - 프로젝트 계획요소들과 관련 산출물 간의 **일관성을 점검하기 위한 기준**을 정의
+                - 프로젝트의 목표를 달성하기 위해계획 요소들이 계획및수행되고 있는지를 관리 프로젝트의 목표, 범위, 투입 인력, 비용, 자원, 일정, 필요지식 및 기술, 관리 항목 등 프로젝트 계획요소 별 수행 결과를 요구사항을 기준으로 점검
+                - 프로젝트 작업산출물이 프로젝트 계획 시수립한 활동목표와 부합하는지를 점검
+        - Output Work Product(출력 결과물)
+            - Review record
+            - Project plan
+            - Change request
+            - Project status report
+            - Schedule
+            - Communication record
+            - Corrective action register
+            - Work breakdown structure
+            - Stakeholder groups list
+        - Practice Checklist
+            - 프로젝트 계획 요소들이 일관성 있는지를 확인하는 활동을 어떻게 하고 있는가?
+    - BP 10 : Review and report progress of the project. [프로젝트 진척 상황을 검토하고 보고한다.]
+        - 설명
+            - 정기적으로 프로젝트의 진행 상태를 기록하고 점검한다.
+                - 주간/월간/마일스톤 단위의 프로젝트 상태를 기록하고 공유
+            - 프로젝트의 Best Practices와 Lessons Learned를 공유한다.
+            - 이슈의 재발방지 대책 수립한다.
+        - Output Work Product(출력 결과물)
+            - Project status report
+            - Corrective action register
+            - Communication record
+            - Review record
+            - Change request
+        - Practice Checklist
+            - 정기적으로 프로젝트 진척사항을 파악하고 있는가?
+                - 주간보고, 월간보고, 마일스톤 검토, 프로젝트 점검회의(경영진 보고) 등
+            - 프로젝트 이슈발생 시 어떻게 대응하고 있는가?
+            - Escalation 체계는 어떻게 정의되어 있는가?
